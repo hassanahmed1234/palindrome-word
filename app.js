@@ -4,7 +4,7 @@ function check(){
     var input = document.getElementById('input')
     var result = document.getElementById('result')
 
-    var inputval = input.value
+    var inputval = input.value.toLowerCase()
     var final = "";
 
 
