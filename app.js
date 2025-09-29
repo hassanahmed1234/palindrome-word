@@ -13,10 +13,10 @@ function check(){
         
     }
         if (final === inputval) {
-            result.innerText += `Yes,${final} is palindrome`
+            result.innerText += `Yes,${inputval} is palindrome`
                      
         }else{
-            result.innerText += `No,${final} is not palindrome`                        
+            result.innerText += `No,${inputval} is not palindrome`                        
 
         }
         
